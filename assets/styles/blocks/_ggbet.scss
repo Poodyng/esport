@@ -1,0 +1,159 @@
+.ggbet {
+
+    padding: 70px 0 150px;
+
+    &__all-overall-rating {
+        display: flex;
+    }
+
+    &__block {
+        display: flex;
+        gap: 60px;
+        padding: 0 0 150px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__sub-block {
+        display: flex;
+        justify-content: space-between;
+        gap: 354px;
+        align-items: center;
+        padding: 35px 50px;
+        border: 1px  solid rgba(255, 255, 255, 0.12);
+        max-width: 871px;
+    }
+
+    &__items {
+
+    }
+
+    &__sub-text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+
+    &__rating-area {
+        overflow: hidden;
+    }
+    &__rating-area:not(:checked) > input {
+        display: none;
+    }
+    &__rating-area:not(:checked) > label {
+        float: right;
+        width: 42px;
+        padding: 0;
+        cursor: pointer;
+        font-size: 32px;
+        line-height: 32px;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    &__rating-area:not(:checked) > label:before {
+        content: '★';
+    }
+    &__rating-area > input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px #c60;
+    }
+    &__rating-area:not(:checked) > label:hover,
+    &__rating-area:not(:checked) > label:hover ~ label {
+        color: gold;
+    }
+    &__rating-area > input:checked + label:hover,
+    &__rating-area > input:checked + label:hover ~ label,
+    &__rating-area > input:checked ~ label:hover,
+    &__rating-area > input:checked ~ label:hover ~ label,
+    &__rating-area > label:hover ~ input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px goldenrod;
+    }
+    &__rate-area > label:active {
+        position: relative;
+    }
+
+    &__the-second-part {
+        padding: 107px 143px 90px 119px;
+        border: 1 xp;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    &__overall-rating {
+        text-align: center;
+    }
+
+    &__rating-area-sub {
+        margin: 18px 0 30px;
+    }
+
+    &__title-sub {
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    &__text-sub {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    &__review {
+        display: flex;
+        margin: 80px 0;
+    }
+
+    &__review-block {
+        padding: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    &__review-title {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+        color: #FFFFFF;
+    } 
+
+    &__review-sub-title {
+        max-width: 600px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #A7A7A8;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        padding: 28px 623px;
+        background: #473453;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        color: #FFFFFF;
+        transition: 0.2s ease-in;
+        &:hover {
+            color: #ffe3e3;
+            background-color: #2f2336;
+            cursor: pointer;
+        }
+
+    }
+}

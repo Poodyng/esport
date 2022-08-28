@@ -1,0 +1,96 @@
+.game-news {
+    background-color: #FAFAFA;
+    padding: 180px 0 175px;
+
+    .container {
+        opacity: 0;
+        transition: 1s ease;
+        transform: translateY(150px);
+    }
+
+    &__header {
+        padding-bottom: 60px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #1B1B1B;
+    }
+
+    &.animated {
+        .container {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__title {
+        margin: 20px 0 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #656565;
+    }
+
+    &__sub-title {
+        margin-bottom: 10px;
+        max-width: 440px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: #1B1B1B;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #656565;
+    }
+
+    &__sub-block {
+        margin-top: 63px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+
+        &-img {
+            display: flex;
+            overflow: hidden;
+            transition: 0.3s ease;
+
+            img {
+                transition: 0.3s ease;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+
+    &__items {
+        display: flex;
+        gap: 40px;
+        padding: 180px 0 40px;
+    }
+
+    &__sub-header {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #1B1B1B;
+    }
+}

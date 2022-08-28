@@ -1,0 +1,12 @@
+@import './reset';
+@import './mixins';
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #222225;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+.game-games {
+
+    &__items {
+        border-top: 1px solid rgb(90, 85, 85);
+        border-bottom: 1px solid rgb(90, 85, 85);
+        
+    }
+
+    &__list {
+        padding: 16px 0 17px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #A7A7A8;
+        &:hover {
+            color: #EDC239;
+            cursor: pointer;
+        }
+
+    }
+}

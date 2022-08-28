@@ -1,0 +1,37 @@
+.Rainbow-7 {
+    padding: 70px 0 150px;
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    &__block {
+        display: flex;
+        gap: 21px;
+    }
+
+    &__img {
+        width: 90px;
+        height: 90px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__social {
+
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+}

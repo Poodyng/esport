@@ -1,0 +1,17 @@
+.list {
+    &__button {
+        padding: 24px 355px 24px 392px;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 130%;
+        color: #FFFFFF;
+        background: #473453;
+        border-radius: 6px;
+        transition: 0.5s ease-in;
+        width: 100%;
+        &:hover {
+            color: #473453;
+            background-color: #FFFFFF;
+        }
+    }
+}

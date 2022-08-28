@@ -1,0 +1,30 @@
+.breadcrumbs {
+    padding: 20px 0 50px;
+    &__text {
+        
+    }
+
+    &__title {
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        color: #656565;
+        &:hover {
+            color: #aaa8a8;
+            cursor: pointer;
+        }
+    }
+
+    &__sub-title {
+        margin-left: 3px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        color: #A7A7A8;
+        &:hover {
+            color: #ceced3;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.stream {
+    padding: 180px 0;
+    
+
+    &__block {
+        padding: 180px 0;
+        position: relative;
+        min-height: 620px;
+    }
+
+    &__block-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__text {
+        
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    &__sub-title {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #A7A7A8;
+    }
+
+    &__img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__img-play {
+        
+    }
+}

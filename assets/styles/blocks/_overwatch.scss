@@ -1,0 +1,35 @@
+.overwatch {
+    
+    &__block {
+        display: flex;
+        position: relative;
+    }
+
+    &__text {
+        margin-top: 246px;
+    }
+
+    &__title {
+        max-width: 623px;
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__sub-title {
+        margin-top: 30px;
+        max-width: 462px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        right: 0px;
+        z-index: -1;
+        position: absolute;
+    }
+}

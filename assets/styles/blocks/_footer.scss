@@ -1,0 +1,55 @@
+.footer {
+    
+    padding: 100px 0 30px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #656565;
+        &:hover {
+            color: #EDC239;
+            cursor: pointer;
+        }
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: #4B4B4D;
+
+    }
+
+    &__sub-list {
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        gap: 40px;
+
+        img {
+            transition: 0.2s ease-in;
+            &:hover {
+                opacity: 0.3;
+            }
+        }
+    }
+}

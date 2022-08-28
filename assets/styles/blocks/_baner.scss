@@ -1,0 +1,32 @@
+.baner {
+    padding: 0 0 180px 0;
+    
+    &__block {
+        position: relative;
+        display: flex;
+    }
+
+    &__text {
+        margin: 200px 0 0 0;
+    }
+
+    &__title {
+        padding: 0px 0 10px 0;
+        max-width: 740px;
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__block-img {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+    }
+
+    &__img {
+        
+    }
+}

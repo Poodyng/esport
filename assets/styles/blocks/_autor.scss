@@ -1,0 +1,37 @@
+.autor {
+    &__block {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__sub-title {
+        margin-top: 20px;
+        max-width: 550px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #A7A7A8;
+    }
+
+    &__header {
+
+    }
+
+    &__sub-text {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
